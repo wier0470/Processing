@@ -29,7 +29,7 @@ void setup() {
 void draw() {
   // Map mouse Y to control frequency 
   float yOffset = map(mouseY, 0, height, 0, 1);
-  float frequency = pow(1000, yOffset) + 150;
+  float frequency = pow(1000, yOffset) + 160;
   
   // Map mouse X to control detune
   float detune = map(mouseX, 0, width, -0.5, 0.5);
